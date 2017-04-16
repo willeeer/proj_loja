@@ -30,88 +30,36 @@
 		<div class="dropdown">
 			<button class="dropbtn">Cliente</button>
 			<div class="dropdown-content">
-				<a href="cadastrar_cliente.php">Cadastrar cliente</a>
+				<a href="Scripts_cliente/cadastrar_cliente.php">Cadastrar cliente</a>
 				<a href="#">Atualizar cliente</a>
-				<a href="alterar_endereco.php">Atualizar endereço de cliente</a>
-				<a href="deletar_cliente.php">Listar clientes</a>
+				<a href="Scripts_cliente/alterar_endereco.php">Atualizar endereço de cliente</a>
+				<a href="home.php">Listar clientes</a>
 			</div>
 		</div>
 		<div class = "dropdown">
 			<button class="dropbtn">Produto</button>
 			<div class="dropdown-content">
-				<a href="cadastrar_produto.php">Cadastrar Produto</a>
-				<a href="alterar_produto.php">Atualizar Produto</a>
+				<a href="Scripts_produto/cadastrar_produto.php">Cadastrar Produto</a>
+				<a href="Scripts_produto/alterar_produto.php">Atualizar Produto</a>
 				<a href="#">Listar Produtos</a>
 			</div>
 		</div>
 		<div class = "dropdown">
 			<button class="dropbtn">Vendedor</button>
 			<div class="dropdown-content">
-				<a href="cadastrar_vendedor.php">Cadastrar Vendedor</a>
+				<a href="Scripts_vendedor/cadastrar_vendedor.php">Cadastrar Vendedor</a>
 				<a href="#">Listar Vendedores</a>
 			</div>
 		</div>
 		<div class = "dropdown">
 			<button class="dropbtn">Vendas</button>
 			<div class="dropdown-content">
-				<a href="dados_pre_venda.php">Cadastrar Venda</a>
+				<a href="Scripts_venda/dados_pre_venda.php">Cadastrar Venda</a>
 				<a href="#">Atualizar Vendas</a>
 				<a href="#">Listar Todas as vendas</a>
-				<a href="dados_pre_minhaVenda.php">Minhas vendas</a>
+				<a href="Scripts_venda/dados_pre_minhaVenda.php">Minhas vendas</a>
 			</div>
 		</div>
 	</div>
 </body>
 </html>
-
-		
-<!--
-
-<fieldset>
-		<legend> Cadastramentos: </legend>
-		<form action = "cadastrar_cliente.php" method = "POST" name = "form_cadastro_cliente">
-			<label for = "Cadastro_cliente">
-				<span>Cliente    </span>
-				<input type = "submit" value = "Selecionar">
-			</label>
-		</form>
-		<form action ="cadastrar_produto.php" method = "POST" name = "form_cadastro_produto">
-			<label for = "Cadastro_fornecedor">
-				<span>Produto </span>
-				<input type = "submit" value = "Selecionar">
-				
-			</label>
-		</form>
-
-		<form action ="cadastrar_vendedor.php" method = "POST" name = "form_cadastro_vendedor">
-			<label for = "Cadastro_fornecedor">
-				<span>Vendedor </span>
-				<input type = "submit" value = "Selecionar">
-				
-			</label>
-		</form>
-
-		<form action ="dados_pre_venda.php" method = "POST" name = "form_cadastro_venda">
-			<label for = "Cadastro_fornecedor">
-				<span>Venda </span>
-				<input type = "submit" value = "Selecionar">
-				
-			</label>
-		</form>
-
-		<form action ="alterar_endereco.php" method = "POST" name = "form_cadastro_venda">
-			<label for = "Cadastro_fornecedor">
-				<span>Alterar endereço de cliente </span>
-				<input type = "submit" value = "Selecionar">				
-			</label>
-		</form>
-
-		<form action ="alterar_produto.php" method = "POST" name = "form_cadastro_venda">
-			<label for = "Cadastro_fornecedor">
-				<span>Alterar dados de produto </span>
-				<input type = "submit" value = "Selecionar">				
-			</label>
-		</form>
-	</fieldset>
-
--->

@@ -1,9 +1,9 @@
 <?php 
 
-	require_once "conectar_bd.php";
+	require_once "../conectar_bd.php";
 
 	if (!$conexao) {
-		header("Location: home.php","fudeu");
+		header("Location: ../home.php","fudeu");
 		session_destroy();
 	}
 	unset($_GET['Message']);
@@ -23,7 +23,7 @@
 
 		if ($acaoUpdate){
 			$msg = "Usuário cadastrado com sucesso!";
-			header("Location: home.php?msg=".$msg);
+			header("Location: ../home.php?msg=".$msg);
 		} else {
 			echo "erro";
 		}

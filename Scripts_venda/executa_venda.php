@@ -1,11 +1,11 @@
 <?php 
 
-	require_once "conectar_bd.php";
+	require_once "../conectar_bd.php";
 	session_start();
 	session_regenerate_id();
 
 	if (!$conexao) {
-		header("Location: home.php","fudeu");
+		header("Location: ../home.php","fudeu");
 		session_destroy();
 	}
 
@@ -81,7 +81,7 @@
 
 
 				$msg = "Venda cadastrada com sucesso!";
-				header("Location: home.php?msg=".$msg);
+				header("Location: ../home.php?msg=".$msg);
 			} else {
 				echo "erro";
 			}

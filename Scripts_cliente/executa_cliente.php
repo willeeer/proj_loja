@@ -1,9 +1,9 @@
 <?php 
 
-	require_once "conectar_bd.php";
+	require_once "../conectar_bd.php";
 
 	if (!$conexao) {
-		header("Location: home.php","fudeu");
+		header("Location: ../home.php","fudeu");
 		session_destroy();
 	}
 
@@ -86,7 +86,7 @@
 		if ($acaoInserir && $acaoInserir2){
 			$msg = "Usuário cadastrado com sucesso!";
 			//header("Location: home.php?msg=".$msg);
-			header("Location: home.php?Message=" . urlencode($msg));
+			header("Location: ../home.php?Message=" . urlencode($msg));
 		} else {
 			echo "erro";
 		}

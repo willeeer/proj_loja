@@ -1,9 +1,9 @@
 <?php
 
-require_once "conectar_bd.php";
+require_once "../conectar_bd.php";
 
 if (!$conexao) {
-	header("Location: home.php","fudeu");
+	header("Location: ../home.php","fudeu");
 	session_destroy();
 }
 
